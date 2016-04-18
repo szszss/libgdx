@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry excluding="**/.svn/*|com/badlogic/emu/" kind="src" path="src"/>
-	<classpathentry kind="src" path="test"/>
+	<classpathentry excluding="**/.svn/*|com/badlogic/emu/|com/badlogic/gdx/graphics/g3d/|com/badlogic/gdx/graphics/g3d/attributes/|com/badlogic/gdx/graphics/g3d/decals/|com/badlogic/gdx/graphics/g3d/environment/|com/badlogic/gdx/graphics/g3d/loader/|com/badlogic/gdx/graphics/g3d/model/|com/badlogic/gdx/graphics/g3d/model/data/|com/badlogic/gdx/graphics/g3d/particles/|com/badlogic/gdx/graphics/g3d/particles/batches/|com/badlogic/gdx/graphics/g3d/particles/emitters/|com/badlogic/gdx/graphics/g3d/particles/influencers/|com/badlogic/gdx/graphics/g3d/particles/renderers/|com/badlogic/gdx/graphics/g3d/particles/values/|com/badlogic/gdx/graphics/g3d/shaders/|com/badlogic/gdx/graphics/g3d/utils/|com/badlogic/gdx/graphics/g3d/utils/shapebuilders/" kind="src" path="src"/>
+	<classpathentry excluding="com/badlogic/gdx/math/|com/badlogic/gdx/math/collision/|com/badlogic/gdx/utils/" kind="src" path="test"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/gdx-jnigen"/>
-	<classpathentry kind="lib" path="libs/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="libs/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
