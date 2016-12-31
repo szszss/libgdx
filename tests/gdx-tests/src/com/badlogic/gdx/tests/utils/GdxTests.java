@@ -38,13 +38,14 @@ import java.util.List;
 
 import com.badlogic.gdx.tests.*;
 import com.badlogic.gdx.tests.bench.TiledMapBench;
+import com.badlogic.gdx.tests.conformance.DisplayModeTest;
 import com.badlogic.gdx.tests.examples.MoveSpriteExample;
 import com.badlogic.gdx.tests.extensions.ControllersTest;
 import com.badlogic.gdx.tests.extensions.FreeTypeAtlasTest;
 import com.badlogic.gdx.tests.extensions.FreeTypeDisposeTest;
 import com.badlogic.gdx.tests.extensions.FreeTypeFontLoaderTest;
-import com.badlogic.gdx.tests.extensions.FreeTypeMetricsTest;
 import com.badlogic.gdx.tests.extensions.FreeTypeIncrementalTest;
+import com.badlogic.gdx.tests.extensions.FreeTypeMetricsTest;
 import com.badlogic.gdx.tests.extensions.FreeTypePackTest;
 import com.badlogic.gdx.tests.extensions.FreeTypeTest;
 import com.badlogic.gdx.tests.extensions.InternationalFontsTest;
@@ -122,6 +123,7 @@ public class GdxTests {
 		ETC1Test.class,
 //		EarClippingTriangulatorTest.class,
 		EdgeDetectionTest.class,
+		DisplayModeTest.class,
 		ExitTest.class,
 		ExternalMusicTest.class,
 		FilesTest.class,
@@ -173,6 +175,7 @@ public class GdxTests {
 		MusicTest.class,
 		NetAPITest.class,
 		NinePatchTest.class,
+		NoncontinuousRenderingTest.class,
 		OnscreenKeyboardTest.class,
 		PathTest.class,
 		ParallaxTest.class,
@@ -221,6 +224,7 @@ public class GdxTests {
 		TableLayoutTest.class,
 		TableTest.class,
 		TextAreaTest.class,
+		TextAreaTest2.class,		
 		TextButtonTest.class,
 		TextInputDialogTest.class,
 		TextureAtlasTest.class,
